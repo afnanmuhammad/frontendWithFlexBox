@@ -1,0 +1,56 @@
+.main{
+    display: flex;
+    padding: 10px;
+    background-color: #ff7200;
+    color: white;
+    width: 100%;
+}
+.nav{
+    margin-left: 25px;
+    margin-top: 5px 5px 5px 5px;
+}
+.input{
+    padding: 5px;
+    margin-left: 55%;
+    border-radius: 16px;
+    border: 1px solid black;
+    
+}
+.fulldiv{
+    height: 100vh;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/plant1.jpg);   
+    
+}
+#text{
+    position: absolute;
+    width: 30%;
+    height: 45%;
+    top: 100px;
+    left: 100px;
+    padding: 10px;
+    color: white;
+    font-size: 17px;
+    border-radius: 16px;
+    border: 2px solid white;    
+}
+#picture{
+    position: absolute;
+    width: 25%;
+    height: 45%;
+    top: 100px;
+    right: 100px;
+    padding: 10px;
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    background-image: url(images/bird.jfif);
+}
+#bottom{
+    padding: 20px;
+    font-size: 20px;
+}
+
